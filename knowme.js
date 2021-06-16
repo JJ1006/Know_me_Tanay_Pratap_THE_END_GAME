@@ -16,3 +16,13 @@ function play(question,answer) {
       console.log("Your score is: "+score);
     }
   }
+
+  var allQuestions = [{
+    question : "\nWho is my favourite cricketer of all times? \n",
+    answer : "Sachin Tendulkar",
+  },
+  {
+    question : "\nWho is the current captain of Indian Men's cricket Team? \n",
+    answer : "Virat Kohli",
+  }
+  ];
