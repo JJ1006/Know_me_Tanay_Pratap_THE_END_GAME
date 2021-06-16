@@ -26,3 +26,10 @@ function play(question,answer) {
     answer : "Virat Kohli",
   }
   ];
+
+  for(var i = 0; i < allQuestions.length ; i++) {
+    var currentQuestion = allQuestions[i];
+    play(currentQuestion.question, currentQuestion.answer)
+  }
+  
+  console.log("\n\nYour final score is: "+score);
